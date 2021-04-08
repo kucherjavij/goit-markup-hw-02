@@ -1,0 +1,139 @@
+:root {
+  --accent-color: #2196f3;
+  --titles-color: #212121;
+  --main-text-color: #757575;
+  --dark-bg-text: #ffffff;
+  --mail-tel-color: rgba(255, 255, 255, 0.6);
+
+  --dark-background: #2f303a;
+  --second-background: #f5f4fa;
+
+  --main-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+header > ul + nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+nav {
+  color: var(--titles-color);
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.address {
+  font-style: inherit;
+}
+
+.address > a {
+  color: var(--dark-bg-text);
+}
+
+.address li a {
+  color: var(--mail-tel-color);
+}
+
+.button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--dark-bg-text);
+  background-color: var(--accent-color);
+}
+
+.logo {
+  color: #000000;
+  font-family: var(--logo-font);
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.logo > span {
+  color: var(--accent-color);
+}
+
+.main-page-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--dark-bg-text);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--titles-color);
+}
+
+.features-title {
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--titles-color);
+}
+
+.name-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--titles-color);
+}
+
+.name-item {
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.dark-bg {
+  background-color: var(--dark-background);
+}
+
+.second-bg {
+  background-color: var(--second-background);
+}
+
+.worker {
+  text-align: center;
+}
