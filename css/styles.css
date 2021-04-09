@@ -31,14 +31,14 @@ body {
   overflow: hidden;
 }
 
-header > ul + nav {
+.head > ul + nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
-nav {
+.nav {
   color: var(--titles-color);
 }
 
@@ -91,7 +91,7 @@ nav {
   color: var(--accent-color);
 }
 
-footer .logo {
+.dark-bg > .logo {
   color: var(--dark-bg-text);
 }
 
