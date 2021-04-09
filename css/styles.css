@@ -91,6 +91,10 @@ nav {
   color: var(--accent-color);
 }
 
+footer .logo {
+  color: var(--dark-bg-text);
+}
+
 .main-page-title {
   font-weight: 900;
   font-size: 44px;
@@ -135,5 +139,33 @@ nav {
 }
 
 .worker {
+  text-align: center;
+}
+
+/* Страница портфолио */
+
+.portfolio-btn {
+  letter-spacing: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--titles-color);
+  background: var(--second-background);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--dark-bg-text);
+  background-color: var(--accent-color);
+}
+
+.suggestion-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.center {
   text-align: center;
 }
