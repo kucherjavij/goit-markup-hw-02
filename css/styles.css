@@ -169,3 +169,7 @@ footer .logo {
 .center {
   text-align: center;
 }
+
+.current-page {
+  color: var(--accent-color);
+}
