@@ -91,6 +91,10 @@ body {
   color: var(--accent-color);
 }
 
+.nav > .logo {
+  text-decoration: none;
+}
+
 .dark-bg > .logo {
   color: var(--dark-bg-text);
 }
