@@ -82,6 +82,10 @@ body {
   background-color: var(--accent-color);
 }
 
+.cursors {
+  cursor: pointer;
+}
+
 .logo {
   color: var(--logo-black-cl);
   font-family: var(--logo-font);
