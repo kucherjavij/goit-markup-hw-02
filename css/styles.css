@@ -4,6 +4,7 @@
   --main-text-color: #757575;
   --dark-bg-text: #ffffff;
   --mail-tel-color: rgba(255, 255, 255, 0.6);
+  --logo-black-cl: #000000;
 
   --dark-background: #2f303a;
   --second-background: #f5f4fa;
@@ -15,6 +16,7 @@
 body {
   font-family: var(--main-font);
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
@@ -81,7 +83,7 @@ body {
 }
 
 .logo {
-  color: #000000;
+  color: var(--logo-black-cl);
   font-family: var(--logo-font);
   font-weight: bold;
   font-size: 26px;
